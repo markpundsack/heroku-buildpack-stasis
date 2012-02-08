@@ -14,7 +14,7 @@ gempath:
 - $1/.gems
 EOF
 
-/usr/local/bin/gem install statis --no-rdoc --no-ri | indent
+/usr/local/bin/gem install stasis --no-rdoc --no-ri | indent
 
 # Run Jekyll
 echo "Running Stasis" | indent
