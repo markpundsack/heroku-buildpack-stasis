@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# this pack is valid for apps with any kind of files
+echo "Stasis"
+exit 0
