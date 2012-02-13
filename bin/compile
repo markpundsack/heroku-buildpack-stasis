@@ -14,7 +14,7 @@ gempath:
 - $1/.gems
 EOF
 
-/usr/local/bin/gem install stasis haml albino coffee-script nokogiri rocco maruku redcloth radius builder erubis sass less liquid rdiscount bluecloth kramdown rdoc markaby creole wikicloth yajl-ruby --no-rdoc --no-ri | indent
+/usr/local/bin/gem install stasis haml albino coffee-script nokogiri rocco maruku RedCloth radius builder erubis sass less liquid rdiscount bluecloth kramdown markaby creole wikicloth yajl-ruby --no-rdoc --no-ri | indent
 
 # Run Jekyll
 echo "Running Stasis" | indent
